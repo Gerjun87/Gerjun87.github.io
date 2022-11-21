@@ -561,11 +561,15 @@ footer a {
     display: block;
   }
   #sobremi .contenedor-foto {
-    max-width: 200px;
+    max-width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #sobremi .contenedor-foto img {
     padding: 8px;
+    width: 70%;
   }
   #sobremi .sobremi .titulo-seccion {
     text-align: center;
